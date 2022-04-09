@@ -35,8 +35,6 @@ body {
     border: none;
     color: hsl(217, 12%, 63%);
     font-weight: 700;
-    padding: 15px 20px;
-    margin: 0 8px;
 }
 
 .rating-btn:hover {
@@ -51,7 +49,7 @@ body {
     color: white;
     letter-spacing: 3px;
     margin: 2em 0;
-    padding: 1em 10em;
+    padding: 1em 8em;
     text-transform: uppercase;
     
 }
@@ -124,3 +122,63 @@ body {
 .attribution a:hover {
     color: hsl(25, 97%, 53%);
 }
+
+/*fieldset*/
+fieldset {
+    border: none;
+    color: white;
+    margin-left: 18px;
+}
+
+label {
+    line-height: 32px;
+    position: absolute;
+    z-index: 1;
+    bottom: 240px;
+  
+
+  }
+  
+  input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+ 
+  
+    position: relative;
+    top: 2px;
+    right: 25px;
+  }
+  
+  input:checked {
+    border: none;
+    background-color: hsl(216, 12%, 54%);
+  }
+  
+  button,
+  legend {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+  }
+  
+  button:hover,
+  button:focus {
+    color: #999;
+  }
+  
+  button:active {
+    background-color: white;
+    color: black;
+    outline: 1px solid black;
+  }
