@@ -22,14 +22,27 @@
     <p class="content">Please let us know how we did with your support request. All feedback is appreciated 
     to help us improve our offering!
     </p>
-    <input type="button" class="rating-btn one" value="1">
-    <input type="button" class="rating-btn two" value="2">
-    <input type="button" class="rating-btn three" value="3">
-    <input type="button" class="rating-btn four" value="4">
-    <input type="button" class="rating-btn five" value="5"><br>
-    <button type="button" class="submit-btn">Submit</button>
 
-   
+    <form id="rate-form">
+      <fieldset>
+          <label for="rating1">1</label>
+          <input type="radio" id="rating1" name="rating" class="rating-btn one" value="1">
+         
+          <label for="rating2">2</label>
+          <input type="radio" id="rating2" name="rating" class="rating-btn two" value="2">
+        
+          <label for="rating3">3</label>
+          <input type="radio" id="rating3" name="rating" class="rating-btn three" value="3">
+         
+          <label for="rating4">4</label>
+          <input type="radio" id="rating4" name="rating" class="rating-btn four" value="4">
+         
+          <label for="rating5">5</label>
+          <input type="radio" id="rating5" name="rating" class="rating-btn five" value="5"><br>
+
+          <button type="submit" class="submit-btn" id="submit-button">Submit</button>
+      </fieldset>
+    </form>
   </div>
   <!-- Rating state end -->
 
@@ -51,6 +64,8 @@
     Coded by <a href="https://www.frontendmentor.io/profile/taepal467" target="_blank">Chantae Palacio</a>.
   </div>
 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
