@@ -14,8 +14,9 @@ function getRating(event) {
     $("#rating-content").toggle();
     $(".rate-content").html(`You selected ${ratings} out of 5`);
     setTimeout(function(){
-      history.back();
-    }, 1000);
+       $("#rating-content").show();
+      $("#thank-you-content").hide();
+    }, 2000);
    
    })
 }
