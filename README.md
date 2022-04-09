@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://taepal467.github.io/interactive_rating_component/)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -39,6 +39,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
+- JQuery
 
 
 ### What I learned
@@ -51,14 +52,17 @@ Using JavaScript DOM
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [<input type="radio">](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio) - This helped me to style the radio buttons
+- [<fieldset>: The Field Set element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset) - This helped me learn how to use the fieldset element
+- [Stackoverflow](https://stackoverflow.com/questions/36895254/get-radio-button-value-on-submit-with-javascript) - This helped me to get the value of the radio buttons when submitting a form
+- [Stackoverflow](https://stackoverflow.com/questions/7452146/go-back-to-previous-page-after-a-delay) - This helped me to use jQuery to have the form go back to its orginal state without having to refresh the web page
+
 
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@taepal467](https://www.frontendmentor.io/profile/taepal467)
 
 
 
