@@ -134,9 +134,7 @@ label {
     line-height: 32px;
     position: absolute;
     z-index: 1;
-    bottom: 240px;
-  
-
+    bottom: 275px;
   }
   
   input {
